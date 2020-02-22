@@ -1,0 +1,50 @@
+body{
+	background-color: #011F3F;
+	text-align: center;
+}
+
+#level-title{
+	font-family: 'Lacquer', sans-serif;
+	margin: 2rem;
+	color: #FEF2BF;
+	font-size: 4rem;
+}
+
+.conatiner{
+	padding: 1rem;
+	display: block;
+}
+.btn{
+	height: 200px;
+	width: 200px;
+	border: solid 10px black;
+	border-radius: 20%;
+	display: inline-block;
+	margin: 1.5rem;
+
+}
+
+.green{
+	background-color: green;
+}
+.red{
+	background-color: red;
+}
+
+.yellow{
+	background-color: yellow;
+}
+
+.blue{
+	background-color: blue;
+}
+
+
+.pressed{
+
+	box-shadow: 0 0 20px white;
+}
+
+.game-over{
+	background-color: red;
+}
